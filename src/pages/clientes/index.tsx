@@ -1,14 +1,13 @@
 import Header from "~/components/Header";
-import React from "react";
+import S from "~/styles/styles";
+import React, { FC, ReactElement } from "react";
 
-import { Container } from "./styles";
-
-const clientes: React.FC = () => {
+const clientes: FC = (): ReactElement => {
   return (
-    <Container>
+    <S.Container>
       <h1>clientes</h1>
       <Header />
-    </Container>
+    </S.Container>
   );
 };
 

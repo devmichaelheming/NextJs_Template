@@ -1,26 +1,20 @@
 import Link from "next/link";
-import React from "react";
+import React, { FC, ReactElement } from "react";
 
 import { Container } from "./styles";
 
-const Header: React.FC = () => {
+const Header: FC = (): ReactElement => {
   return (
     <Container>
       <ul>
         <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/clientes">
-            <a>Clientes</a>
-          </Link>
+          <Link href="/clientes">Clientes</Link>
         </li>
         <li>
-          <Link href="/produtos">
-            <a>Produtos</a>
-          </Link>
+          <Link href="/produtos">Produtos</Link>
         </li>
       </ul>
     </Container>
