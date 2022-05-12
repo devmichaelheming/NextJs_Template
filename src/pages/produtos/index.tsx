@@ -5,7 +5,7 @@ import React, { FC, ReactElement } from "react";
 const produtos: FC = (): ReactElement => {
   return (
     <S.Container>
-      <h1>produtos</h1>
+      <S.Title>produtos</S.Title>
       <Header />
     </S.Container>
   );

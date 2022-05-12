@@ -5,7 +5,7 @@ import React, { FC, ReactElement } from "react";
 const clientes: FC = (): ReactElement => {
   return (
     <S.Container>
-      <h1>clientes</h1>
+      <S.Title>clientes</S.Title>
       <Header />
     </S.Container>
   );
