@@ -5,7 +5,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <S.Container>
-      <S.Title>Home</S.Title>
+      <S.Title>Example page of home</S.Title>
       <Header />
     </S.Container>
   );
